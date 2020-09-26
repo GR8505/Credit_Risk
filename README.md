@@ -2,10 +2,10 @@
 ---------------------------------------------------------------------------------------------------------
 ## Executive Summary
 ---------------------------------------------------------------------------------------------------------
-### Naive Random Sampling
-### Synthetic Minority Oversampling Technique (SMOTE)
-### Cluster Centroid Undersampling
-### Synthetic Minority Oversampling Technique combined with Edited Nearest Neighbors (SMOTEENN)
+### - Naive Random Sampling
+### - Synthetic Minority Oversampling Technique (SMOTE)
+### - Cluster Centroid Undersampling
+### - Synthetic Minority Oversampling Technique combined with Edited Nearest Neighbors (SMOTEENN)
 ---------------------------------------------------------------------------------------------------------
 Based on the results of the four sampling techniques highlighted in the appendix below, it is difficult to 
 say which one is best.  The combination sampling technique (SMOTEENN) probably had the best results out of 
@@ -29,8 +29,8 @@ Refer to the following link for the various steps for cleaning the data and exec
 https://github.com/GR8505/Credit_Risk/blob/master/Starter_Code/CR_Oversampling.ipynb
 
 ---------------------------------------------------------------------------------------------------------
-### Balanced Random Forest Classifier
-### Easy Ensemble Ada Boost Classifier
+### - Balanced Random Forest Classifier
+### - Easy Ensemble Ada Boost Classifier
 ---------------------------------------------------------------------------------------------------------
 
 
@@ -103,7 +103,7 @@ number of these variables are not adding to this model at all.
 I tried removing the features that had zero significance to the model and retested.
 These were the results:
 
-![]()
+![](https://github.com/GR8505/Credit_Risk/blob/master/Images/CM_Balanced_RF1.png)
 ![]()
 
 
