@@ -2,9 +2,15 @@
 ---------------------------------------------------------------------------------------------------------
 ## Executive Summary
 ---------------------------------------------------------------------------------------------------------
-Based on the results of the four sampling techniques highlighted below, it is difficult to say which one 
-is best.  The combination sampling technique (SMOTEENN) probably had the best results out of the lot, but
-there is a huge disparity between the Precision and Sensitivity scores in predicting High-Risk customers.
+### Naive Random Sampling
+### Synthetic Minority Oversampling Technique (SMOTE)
+### Cluster Centroid Undersampling
+### Synthetic Minority Oversampling Technique combined with Edited Nearest Neighbors (SMOTEENN)
+---------------------------------------------------------------------------------------------------------
+Based on the results of the four sampling techniques highlighted in the appendix below, it is difficult to 
+say which one is best.  The combination sampling technique (SMOTEENN) probably had the best results out of 
+the lot, but there is a huge disparity between the Precision and Sensitivity scores in predicting High-Risk 
+customers.
 
 This technique is good at ruling out High-Risk customers but this low Precision score of 0.01 is indicative 
 that this model falsly categorizes a large number of Low-Risk customers as High-Risk.  Therefore, in my 
@@ -22,6 +28,15 @@ to payment recoveries for the lenders in the short to medium-term.
 Refer to the following link for the various steps for cleaning the data and execution of sampling methods.
 https://github.com/GR8505/Credit_Risk/blob/master/Starter_Code/CR_Oversampling.ipynb
 
+---------------------------------------------------------------------------------------------------------
+### Balanced Random Forest Classifier
+### Easy Ensemble Ada Boost Classifier
+---------------------------------------------------------------------------------------------------------
+
+
+---------------------------------------------------------------------------------------------------------
+## APPENDIX
+---------------------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------
 ## Oversampling
 ---------------------------------------------------------------------------------------------------------
@@ -69,3 +84,18 @@ High-Risk is a clear indication of the large disparity between the Precision and
 High-Risk customers.  Accuracy back up to 0.64.
 
 ---------------------------------------------------------------------------------------------------------
+## Ensemble Classifiers
+---------------------------------------------------------------------------------------------------------
+### Balanced Random Forest Classifier
+
+![]()
+![]()
+
+
+
+
+--------------------------------------------------------------------------------------------------------
+### Easy Ensemble Ada Boost Classifier
+
+![]()
+![]()
