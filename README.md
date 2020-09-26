@@ -43,6 +43,7 @@ Accuracy remains at 0.65.
 ----------------------------------------------------------------------------------------------------------
 ### Cluster Centroid Undersampling
 
+![](https://github.com/GR8505/Credit_Risk/blob/master/Images/CM_Cluster_Centroid.png)
 ![](https://github.com/GR8505/Credit_Risk/blob/master/Images/Cluster_Centroids1.png)
 
 In this undersampling technique there is no significant improvement in the scores for both High-Risk and
