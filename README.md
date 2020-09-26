@@ -8,13 +8,19 @@ there is a huge disparity between the Precision and Sensitivity scores in predic
 
 This technique is good at ruling out High-Risk customers but this low Precision score of 0.01 is indicative 
 that this model falsly categorizes a large number of Low-Risk customers as High-Risk.  Therefore, in my 
-opinion, I will not go with any of the models.  While, it does a very good job at detecting High-Risk 
-customers, it does too well of a job to the extent that a large number of Low-Risk customers will be denied
+opinion, I will not go with any of the models.  While, it does a good job at detecting High-Risk customers, 
+arguably it does too well of a job to the extent that a large number of Low-Risk customers will be denied
 access to loan facilities.  
 
-While some may argue that denying Low-Risk customers augurs well for lenders, as these customers can 
-potentially become High-Risk customers, this may not be the case. A good portion of these Low-Risk customers 
-can rebound and lenders often recover these debt collections in the short to medium-term.
+While some may argue that denying Low-Risk customers augurs well for the lending institution, as these 
+Low-Risk customers can potentially become High-Risk customers in the long-run this may not always be the 
+case. 
+
+There is a possibility that these Low-Risk customers can improve their credit standings and this can lead
+to payment recoveries for the lenders in the short to medium-term.
+
+Refer to the following link for the various steps for cleaning the data and execution of sampling methods.
+https://github.com/GR8505/Credit_Risk/blob/master/Starter_Code/CR_Oversampling.ipynb
 
 ---------------------------------------------------------------------------------------------------------
 ## Oversampling
