@@ -54,6 +54,7 @@ Low-Risk customers. Furthermore, the accuracy of the model is worse at 0.54.
 ----------------------------------------------------------------------------------------------------------
 ### SMOTEENN
 
+![](https://github.com/GR8505/Credit_Risk/blob/master/Images/CM_SMOTEENN.png)
 ![](https://github.com/GR8505/Credit_Risk/blob/master/Images/SMOTEENN1.png)
 
 This combination sampling technique yields the best Sensitivity score for High-Risk customers.  However,
