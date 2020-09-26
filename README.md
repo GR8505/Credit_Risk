@@ -28,9 +28,10 @@ Based on this first sampling technique, the Precision for High-Risk customers is
 is respectable at 0.71.  Precision for Low-Risk customers are too good to be true at 1. The Recall score
 is 0.58. Overall the accuracy of this model is good at 0.65.
 
-
+----------------------------------------------------------------------------------------------------------
 ### SMOTE
 
+![](https://github.com/GR8505/Credit_Risk/blob/master/Images/CM_SMOTE.png)
 ![](https://github.com/GR8505/Credit_Risk/blob/master/Images/SMOTE1.png)
 
 In this oversampling technique the precision scores for both High-Risk and Low-Risk customers are 
