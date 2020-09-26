@@ -25,7 +25,7 @@ can rebound and lenders often recover these debt collections in the short to med
 
 Based on this first sampling technique, the Precision for High-Risk customers is very low but Sensitivity
 is respectable at 0.71.  Precision for Low-Risk customers are too good to be true at 1. The Recall score
-is 0.58.
+is 0.58. Overall the accuracy of this model is good at 0.65.
 
 
 ### SMOTE
@@ -34,6 +34,7 @@ is 0.58.
 
 In this oversampling technique the precision scores for both High-Risk and Low-Risk customers are 
 unchanged. Sensitivity score for Low-Risk customers improves slightly but declines for High-Risk customers.
+Accuracy remains at 0.65.
 
 ----------------------------------------------------------------------------------------------------------
 ## Undersampling
@@ -42,8 +43,8 @@ unchanged. Sensitivity score for Low-Risk customers improves slightly but declin
 
 ![](https://github.com/GR8505/Credit_Risk/blob/master/Images/Cluster_Centroids.png)
 
-In this undersampling technique there is nosignificant improvement in the scores for both High-Risk and
-Low-Risk customers.
+In this undersampling technique there is no significant improvement in the scores for both High-Risk and
+Low-Risk customers. Furthermore, the accuracy of the model is worse at 0.54.
 
 ----------------------------------------------------------------------------------------------------------
 ## Combination Sampling
@@ -55,6 +56,6 @@ Low-Risk customers.
 This combination sampling technique yields the best Sensitivity score for High-Risk customers.  However,
 there is no improvement in the Precision score for detecting High-Risk customers. The small F1 score for
 High-Risk is a clear indication of the large disparity between the Precision and Sensitivity scores for
-High-Risk customers.
+High-Risk customers.  Accuracy back up to 0.64.
 
 ---------------------------------------------------------------------------------------------------------
