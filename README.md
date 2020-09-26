@@ -89,7 +89,7 @@ High-Risk customers.  Accuracy back up to 0.64.
 ### Balanced Random Forest Classifier
 
 ![](https://github.com/GR8505/Credit_Risk/blob/master/Images/CM_Balanced_RF.png)
-![]()
+![](https://github.com/GR8505/Credit_Risk/blob/master/Images/Balanced_RF.png)
 
 
 
