@@ -31,8 +31,14 @@ https://github.com/GR8505/Credit_Risk/blob/master/Starter_Code/CR_Oversampling.i
 ---------------------------------------------------------------------------------------------------------
 ### - Balanced Random Forest Classifier
 ### - Easy Ensemble Ada Boost Classifier
----------------------------------------------------------------------------------------------------------
 
+Both of these classification methods did not improve the model.  Its perfect scores for both Precision and
+Recall when it comes to predicting Low-Risk customers is an indication of an overfit model.  Moreover, the 
+low recall score for High-Risk customers means that these methods are both prone to misclassifying a fair
+amount of High-Risk customers to Low-Risk customers.
+
+Refer to the following link for the various steps for cleaning the data and execution of sampling methods.
+https://github.com/GR8505/Credit_Risk/blob/master/Starter_Code/CR_Oversampling.ipynb
 
 ---------------------------------------------------------------------------------------------------------
 ## APPENDIX
@@ -104,11 +110,18 @@ I tried removing the features that had zero significance to the model and retest
 These were the results:
 
 ![](https://github.com/GR8505/Credit_Risk/blob/master/Images/CM_Balanced_RF1.png)
-![]()
+![](https://github.com/GR8505/Credit_Risk/blob/master/Images/Balanced_RF1.png)
 
+These results are actually worse.  Accuracy dropped slightly while Precision and Recall scores fell for
+High-Risk customers.
 
 --------------------------------------------------------------------------------------------------------
 ### Easy Ensemble Ada Boost Classifier
 
 ![](https://github.com/GR8505/Credit_Risk/blob/master/Images/CM_Ada_Boost.png)
 ![](https://github.com/GR8505/Credit_Risk/blob/master/Images/Ada_Boost.png)
+
+The Ada Boost Classifier did not improve the model.  Accuracy fell to 0.63 and the Recall for High-Risk
+customers was not impressive.
+
+---------------------------------------------------------------------------------------------------------
