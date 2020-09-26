@@ -23,4 +23,14 @@ unchanged. Sensitivity score for Low-Risk customers improves slightly but declin
 ----------------------------------------------------------------------------------------------------------
 ### Cluster Centroid Undersampling
 
+![](https://github.com/GR8505/Credit_Risk/blob/master/Images/Cluster_Centroids.png)
+
+In this undersampling technique there is nosignificant improvement in the scores for both High-Risk and
+Low-Risk customers.
+
+----------------------------------------------------------------------------------------------------------
+## Combination Sampling
+----------------------------------------------------------------------------------------------------------
+### SMOTEENN
+
 ![]()
