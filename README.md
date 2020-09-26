@@ -13,4 +13,14 @@ is 0.58.
 
 ### SMOTE
 
+![](https://github.com/GR8505/Credit_Risk/blob/master/Images/SMOTE.png)
+
+In this oversampling technique the precision scores for both High-Risk and Low-Risk customers are 
+unchanged. Sensitivity score for Low-Risk customers improves slightly but declines for High-Risk customers.
+
+----------------------------------------------------------------------------------------------------------
+## Undersampling
+----------------------------------------------------------------------------------------------------------
+### Cluster Centroid Undersampling
+
 ![]()
