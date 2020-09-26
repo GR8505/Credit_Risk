@@ -21,6 +21,7 @@ can rebound and lenders often recover these debt collections in the short to med
 ---------------------------------------------------------------------------------------------------------
 ### Naive Random Sampling
 
+![](https://github.com/GR8505/Credit_Risk/blob/master/Images/CM_Over_Sample.png)
 ![](https://github.com/GR8505/Credit_Risk/blob/master/Images/R_OverSample.png)
 
 Based on this first sampling technique, the Precision for High-Risk customers is very low but Sensitivity
