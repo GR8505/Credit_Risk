@@ -91,7 +91,20 @@ High-Risk customers.  Accuracy back up to 0.64.
 ![](https://github.com/GR8505/Credit_Risk/blob/master/Images/CM_Balanced_RF.png)
 ![](https://github.com/GR8505/Credit_Risk/blob/master/Images/Balanced_RF.png)
 
+Respectable accuracy of 0.64, which means that the model correctly predicted 65 percent of customers,
+whether they were High-Risk or Low-Risk.  Precision and Recall scores for Low-Risk is perfect, indicating
+the possiblity of overfitting.  Precision score of 0.76 for High-Risk customers is good but Precision 
+score is sub-par at 0.28.  This means that 72 percent of customers who were actually High-Risk were 
+labelled as Low-Risk by this model.
 
+Looking at the list of features and their ranked levels of importance/significance to the model, a large 
+number of these variables are not adding to this model at all.
+
+I tried removing the features that had zero significance to the model and retested.
+These were the results:
+
+![]()
+![]()
 
 
 --------------------------------------------------------------------------------------------------------
