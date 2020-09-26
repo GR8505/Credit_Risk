@@ -38,7 +38,7 @@ low recall score for High-Risk customers means that these methods are both prone
 amount of High-Risk customers to Low-Risk customers.
 
 Refer to the following link for the various steps for cleaning the data and execution of sampling methods.
-https://github.com/GR8505/Credit_Risk/blob/master/Starter_Code/CR_Oversampling.ipynb
+https://github.com/GR8505/Credit_Risk/blob/master/Starter_Code/credit_risk_ensemble.ipynb
 
 ---------------------------------------------------------------------------------------------------------
 ## APPENDIX
