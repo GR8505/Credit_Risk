@@ -98,4 +98,4 @@ High-Risk customers.  Accuracy back up to 0.64.
 ### Easy Ensemble Ada Boost Classifier
 
 ![](https://github.com/GR8505/Credit_Risk/blob/master/Images/CM_Ada_Boost.png)
-![]()
+![](https://github.com/GR8505/Credit_Risk/blob/master/Images/Ada_Boost.png)
