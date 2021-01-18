@@ -2,24 +2,22 @@
 ---------------------------------------------------------------------------------------------------------
 ## Executive Summary
 ---------------------------------------------------------------------------------------------------------
-### - Naive Random Sampling
-### - Synthetic Minority Oversampling Technique (SMOTE)
-### - Cluster Centroid Undersampling
-### - Synthetic Minority Oversampling Technique combined with Edited Nearest Neighbors (SMOTEENN)
----------------------------------------------------------------------------------------------------------
-## Objectives
----------------------------------------------------------------------------------------------------------
-* Implement different ML models
-* Use Resampling to address class imbalance
-* Evaluate the performance of ML models
+In this project, I experimented with the following sampling techniques to predict which banking customers
+were deemed as high-risk for credit facilities:
 
-----------------------------------------------------------------------------------------------------------
-## Resources
-----------------------------------------------------------------------------------------------------------
+**Oversampling**                                    
+* Naive Random Sampling
+* Synthetic Minority Oversampling Technique (SMOTE)
 
-Based on the results of the four sampling techniques highlighted in the appendix below, it is difficult to 
-say which one is best.  The combination sampling technique (SMOTEENN) probably had the best results out of 
-the lot, but there is a huge disparity between the Precision and Sensitivity scores in predicting High-Risk 
+**Undersampling**
+* Cluster Centroid Undersampling
+
+**Combination of Oversampling and Undersampling**
+* Synthetic Minority Oversampling Technique combined with Edited Nearest Neighbors (SMOTEENN)
+
+Based on the results of the abovementioned sampling techniques, it was difficult to determine which model
+was the best. The combination sampling technique (SMOTEENN) was probably the best out of the lot, but 
+there was a huge disparity between the Precision and Sensitivity scores in predicting High-Risk 
 customers.
 
 This technique is good at ruling out High-Risk customers but this low Precision score of 0.01 is indicative 
@@ -37,6 +35,26 @@ to payment recoveries for the lenders in the short to medium-term.
 
 Refer to the following link for the various steps for cleaning the data and execution of sampling methods.
 https://github.com/GR8505/Credit_Risk/blob/master/Starter_Code/CR_Oversampling.ipynb
+
+---------------------------------------------------------------------------------------------------------
+## Objectives
+---------------------------------------------------------------------------------------------------------
+* Implement different ML models
+* Use Resampling to address class imbalance
+* Evaluate the performance of ML models
+
+----------------------------------------------------------------------------------------------------------
+## Resources
+----------------------------------------------------------------------------------------------------------
+* Python
+* numpy
+* pandas
+* sklearn
+* imblearn
+* plotly
+
+
+
 
 ---------------------------------------------------------------------------------------------------------
 ### - Balanced Random Forest Classifier
