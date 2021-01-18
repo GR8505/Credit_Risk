@@ -1,4 +1,4 @@
-# Credit_Risk
+# Credit Risk
 ---------------------------------------------------------------------------------------------------------
 ## Executive Summary
 ---------------------------------------------------------------------------------------------------------
@@ -7,6 +7,16 @@
 ### - Cluster Centroid Undersampling
 ### - Synthetic Minority Oversampling Technique combined with Edited Nearest Neighbors (SMOTEENN)
 ---------------------------------------------------------------------------------------------------------
+## Objectives
+---------------------------------------------------------------------------------------------------------
+* Implement different ML models
+* Use Resampling to address class imbalance
+* Evaluate the performance of ML models
+
+----------------------------------------------------------------------------------------------------------
+## Resources
+----------------------------------------------------------------------------------------------------------
+
 Based on the results of the four sampling techniques highlighted in the appendix below, it is difficult to 
 say which one is best.  The combination sampling technique (SMOTEENN) probably had the best results out of 
 the lot, but there is a huge disparity between the Precision and Sensitivity scores in predicting High-Risk 
