@@ -3,7 +3,7 @@
 ## Executive Summary
 ---------------------------------------------------------------------------------------------------------
 In this project, I experimented with the following sampling techniques to predict which banking customers
-were deemed as high-risk for credit facilities:
+were deemed as high-risk:
 
 **Oversampling**                                    
 * Naive Random Sampling
@@ -15,23 +15,16 @@ were deemed as high-risk for credit facilities:
 **Combination of Oversampling and Undersampling**
 * Synthetic Minority Oversampling Technique combined with Edited Nearest Neighbors (SMOTEENN)
 
+---------------------------------------------------------------------------------------------------------
 Based on the results of the abovementioned sampling techniques, it was difficult to determine which model
 was the best. The combination sampling technique (SMOTEENN) was probably the best out of the lot, but 
-there was a huge disparity between the Precision and Sensitivity scores in predicting High-Risk 
-customers.
+there was a huge disparity between the Precision and Sensitivity scores in predicting High-Risk customers.
 
-This technique is good at ruling out High-Risk customers but this low Precision score of 0.01 is indicative 
+This technique was good at ruling out High-Risk customers but the low _Precision_ score of 0.01 was indicative 
 that this model falsly categorizes a large number of Low-Risk customers as High-Risk.  Therefore, in my 
 opinion, I will not go with any of the models.  While, it does a good job at detecting High-Risk customers, 
 arguably it does too well of a job to the extent that a large number of Low-Risk customers will be denied
 access to loan facilities.  
-
-While some may argue that denying Low-Risk customers augurs well for the lending institution, as these 
-Low-Risk customers can potentially become High-Risk customers in the long-run this may not always be the 
-case. 
-
-There is a possibility that these Low-Risk customers can improve their credit standings and this can lead
-to payment recoveries for the lenders in the short to medium-term.
 
 Refer to the following link for the various steps for cleaning the data and execution of sampling methods.
 https://github.com/GR8505/Credit_Risk/blob/master/Starter_Code/CR_Oversampling.ipynb
@@ -53,38 +46,31 @@ https://github.com/GR8505/Credit_Risk/blob/master/Starter_Code/CR_Oversampling.i
 * imblearn
 * plotly
 
-
-
-
 ---------------------------------------------------------------------------------------------------------
-### - Balanced Random Forest Classifier
-### - Easy Ensemble Ada Boost Classifier
+## [Other Classification Methods](https://github.com/GR8505/Credit_Risk/blob/master/Starter_Code/credit_risk_ensemble.ipynb)
+---------------------------------------------------------------------------------------------------------
+**Balanced Random Forest Classifier**
+**Easy Ensemble Ada Boost Classifier**
 
-Both of these classification methods did not improve the model.  Its perfect scores for both Precision and
-Recall when it comes to predicting Low-Risk customers is an indication of an overfit model.  Moreover, the 
-low recall score for High-Risk customers means that these methods are both prone to misclassifying a fair
+Both of these classification methods did not improve the model.  Its perfect scores for both _Precision_ and
+_Recall_ when it comes to predicting Low-Risk customers is an indication of an overfitted model.  Moreover, 
+the low _Recall_ score for High-Risk customers means that these methods are both prone to misclassifying a fair
 amount of High-Risk customers to Low-Risk customers.
 
-Refer to the following link for the various steps for cleaning the data and execution of sampling methods.
-https://github.com/GR8505/Credit_Risk/blob/master/Starter_Code/credit_risk_ensemble.ipynb
-
----------------------------------------------------------------------------------------------------------
-## APPENDIX
----------------------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------
 ## Oversampling
 ---------------------------------------------------------------------------------------------------------
-### Naive Random Sampling
+**Naive Random Sampling**
 
 ![](https://github.com/GR8505/Credit_Risk/blob/master/Images/CM_Over_Sample.png)
 ![](https://github.com/GR8505/Credit_Risk/blob/master/Images/R_OverSample1.png)
 
-Based on this first sampling technique, the Precision for High-Risk customers is very low but Sensitivity
-is respectable at 0.71.  Precision for Low-Risk customers are too good to be true at 1. The Recall score
+Based on this first sampling technique, the _Precision_ for High-Risk customers is very low but _Sensitivity_
+is respectable at 0.71.  _Precision for_ Low-Risk customers are too good to be true at 1. The _Recall_ score
 is 0.58. Overall the accuracy of this model is good at 0.65.
 
 ----------------------------------------------------------------------------------------------------------
-### SMOTE
+**SMOTE**
 
 ![](https://github.com/GR8505/Credit_Risk/blob/master/Images/CM_SMOTE.png)
 ![](https://github.com/GR8505/Credit_Risk/blob/master/Images/SMOTE1.png)
@@ -96,7 +82,7 @@ Accuracy remains at 0.65.
 ----------------------------------------------------------------------------------------------------------
 ## Undersampling
 ----------------------------------------------------------------------------------------------------------
-### Cluster Centroid Undersampling
+**Cluster Centroid Undersampling**
 
 ![](https://github.com/GR8505/Credit_Risk/blob/master/Images/CM_Cluster_Centroid.png)
 ![](https://github.com/GR8505/Credit_Risk/blob/master/Images/Cluster_Centroids1.png)
