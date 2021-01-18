@@ -81,8 +81,8 @@ is 0.58. Overall the accuracy of this model is good at 0.65.
 ![](https://github.com/GR8505/Credit_Risk/blob/master/Images/CM_SMOTE.png) | ![](https://github.com/GR8505/Credit_Risk/blob/master/Images/SMOTE1.png)
 ---------------------------------------------------------------------------|-------------------------------
 
-In this oversampling technique the precision scores for both High-Risk and Low-Risk customers are 
-unchanged. Sensitivity score for Low-Risk customers improves slightly but declines for High-Risk customers.
+In this oversampling technique the _Precision_ scores for both High-Risk and Low-Risk customers are 
+unchanged. _Sensitivity_ score for Low-Risk customers improves slightly but declines for High-Risk customers.
 Accuracy remains at 0.65.
 
 ----------------------------------------------------------------------------------------------------------
@@ -104,9 +104,9 @@ Low-Risk customers. Furthermore, the accuracy of the model is worse at 0.54.
 ![](https://github.com/GR8505/Credit_Risk/blob/master/Images/CM_SMOTEENN.png) | ![](https://github.com/GR8505/Credit_Risk/blob/master/Images/SMOTEENN1.png)
 ------------------------------------------------------------------------------|---------------------------
 
-This combination sampling technique yields the best Sensitivity score for High-Risk customers.  However,
-there is no improvement in the Precision score for detecting High-Risk customers. The small F1 score for
-High-Risk is a clear indication of the large disparity between the Precision and Sensitivity scores for
-High-Risk customers.  Accuracy back up to 0.64.
+This combination sampling technique yields the best _Sensitivity_ score for High-Risk customers.  However,
+there is no improvement in the _Precision_ score for detecting High-Risk customers. The small F1 score for
+High-Risk is a clear indication of the large disparity between the _Precision_ and _Sensitivity_ scores for
+High-Risk customers.  Accuracy improved to 0.64.
 
 ----------------------------------------------------------------------------------------------------------
