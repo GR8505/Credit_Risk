@@ -51,8 +51,8 @@ https://github.com/GR8505/Credit_Risk/blob/master/Starter_Code/CR_Oversampling.i
 ---------------------------------------------------------------------------------------------------------
 * **Balanced Random Forest Classifier**
 
-![](https://github.com/GR8505/Credit_Risk/blob/master/Images/CM_Balanced_RF1.png) | ![](https://github.com/GR8505/Credit_Risk/blob/master/Images/Balanced_RF1.png)
-----------------------------------------------------------------------------------|------------------------------
+![](https://github.com/GR8505/Credit_Risk/blob/master/Images/Balanced_RF1.png) | ![](https://github.com/GR8505/Credit_Risk/blob/master/Images/CM_Balanced_RF1.png)
+-------------------------------------------------------------------------------|------------------------------
 
 * **Easy Ensemble Ada Boost Classifier**
 
