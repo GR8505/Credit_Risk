@@ -26,8 +26,7 @@ opinion, I will not go with any of the models.  While, it does a good job at det
 arguably it does too well of a job to the extent that a large number of Low-Risk customers will be denied
 access to loan facilities.  
 
-Refer to the following link for the various steps for cleaning the data and execution of sampling methods.
-https://github.com/GR8505/Credit_Risk/blob/master/Starter_Code/CR_Oversampling.ipynb
+Refer to the following [link](https://github.com/GR8505/Credit_Risk/blob/master/Starter_Code/CR_Oversampling.ipynb) for the various steps for cleaning the data and execution of sampling methods.
 
 ---------------------------------------------------------------------------------------------------------
 ## Objectives
