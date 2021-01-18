@@ -49,8 +49,10 @@ https://github.com/GR8505/Credit_Risk/blob/master/Starter_Code/CR_Oversampling.i
 ---------------------------------------------------------------------------------------------------------
 ## [Other Classification Methods](https://github.com/GR8505/Credit_Risk/blob/master/Starter_Code/credit_risk_ensemble.ipynb)
 ---------------------------------------------------------------------------------------------------------
-**Balanced Random Forest Classifier**
-**Easy Ensemble Ada Boost Classifier**
+* **Balanced Random Forest Classifier**
+* **Easy Ensemble Ada Boost Classifier**
+
+![](https://github.com/GR8505/Credit_Risk/blob/master/Images/Ada_Boost.png) | ![](https://github.com/GR8505/Credit_Risk/blob/master/Images/CM_Ada_Boost.png)
 
 Both of these classification methods did not improve the model.  Its perfect scores for both _Precision_ and
 _Recall_ when it comes to predicting Low-Risk customers is an indication of an overfitted model.  Moreover, 
